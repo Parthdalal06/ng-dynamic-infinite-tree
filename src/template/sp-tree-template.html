@@ -1,0 +1,47 @@
+	<script type="text/ng-template"  id="sp_tree_item.html">
+	    <div  class="expandablesection" ng-style="{'font-style': data[childname] ?'unset':'italic'}"> <span ng-click="collapse(data)" ng-show="(data[subchild].length > 0)&&(data.expanded)" class="glyphicon glyphicon-plus hand "></span>
+	  <span ng-click="expand(data)" ng-show="(data[subchild].length > 0)&&(!data.expanded)" class="glyphicon glyphicon-minus hand"></span><span>{{data[childname] ||data[parent]}}</span> 
+	</div>
+
+		<ul class="tree" ng-show="!data.expanded" style="list-style: none" >
+			<li ng-repeat="data in data[subchild]" ng-init="mappingIndex=$index">
+				<div class="container-fluid" style="display:inline-block;" >
+					<div class="row " ng-class=""> 
+							<div class="panel-group margin-0">
+							<div class="panel panel-default border-radius-0">
+								<div class="panel-heading padding-0">
+									<h4 class="panel-title animateselection">
+										<span
+											class="col-md-12" 
+											ng-model="data[leafname]">{{data[leafname]}}</span>
+									</h4>
+								</div>
+								<div 
+									class="panel-collapse collapse">
+									<div class="panel-body">
+										<div>
+											<div class="form-row margin-top-0">
+												<input class="form-control" ng-model="data[leafname]" type="text">
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</li>
+			<li ng-repeat="data in data[children]" 
+				ng-include="'sp_tree_item.html'">{{data[childname]}}</li>
+
+
+		</ul>
+
+	</script>
+	    <div ng-repeat="data in tree">
+	    <div ng-include="'sp_tree_item.html'"> </div>
+	   
+	    </div>

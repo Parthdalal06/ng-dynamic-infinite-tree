@@ -1,0 +1,94 @@
+.half{
+	width:50%;
+	display:inline-block;
+}
+ul {
+    list-style: square;
+}
+li {
+    margin-left: 20px;
+}
+.hand{
+	cursor: pointer;
+}
+.animateselection{
+	background-color: #ececec;
+	height: 30px;
+	line-height:30px;
+	width:100%;
+ 	font-size:13px;
+	transition-property: color,border-left;
+  	transition-duration: 0.2s;
+  	transition-timing-function: linear;
+}
+.animateselection:hover{
+	color:#3d6ebf !important;
+	border-left:5px solid #6db5d4;
+}
+@keyframes myChange {
+    from {
+        height: 100px;
+    } to {
+        height: 0;
+    }
+}
+.ng-hide {
+    animation: 0.5s myChange;
+}
+  ul.tree, ul.tree ul {
+    list-style: none;
+     margin: 0;
+     padding: 0;
+   } 
+   ul.tree ul {
+     margin-left: 10px;
+   }
+   ul.tree li {
+   	width: fit-content;
+     padding: 0 7px;
+     line-height: 20px;
+     color: #369;
+     font-weight: bold;
+     border-left:1px solid #c3c3c3;
+
+   }
+   ul.tree li:last-child {
+       border-left:none;
+   }
+   ul.tree li:before {
+      position:relative;
+      top:-1.0em;
+      height:1em;
+      width:12px;
+      color:white;
+      border-bottom:1px solid #c3c3c3;
+      content:"";
+      display:inline-block;
+      left:-7px;
+   }
+   ul.tree li:last-child:before {
+      border-left:1px solid #c3c3c3;   
+   }
+   .border-radius-0{
+   	border: 0 ;
+   	border-radius: 0 ;
+   	width: auto;
+   	margin-top:0px;
+   }
+   .expandablesection{
+   	padding: 5px;
+   	margin-bottom: 5px;
+   	display:inline-block;
+   }
+   .margin-0{
+   	margin: 0;
+   }
+   .padding-0{
+   	padding: 0;
+   }
+   .margin-top-0{
+   	margin-top: 0;
+   }
+   .line-height-2{
+   	line-height: 2;
+   }
