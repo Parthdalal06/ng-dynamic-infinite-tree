@@ -10,7 +10,7 @@
 
 ```html
     <link rel="stylesheet" type="text/css" href="node_modules/ng-dynamic-infinite-tree/style/style.css">
-    <script src="node_modules/angular-ui-grid/ng-dynamic-infinite-tree.min.js">
+    <script src="node_modules/ng-dynamic-infinite-tree/ng-dynamic-infinite-tree.min.js">
 ```
 # Angular Compatibility
 
