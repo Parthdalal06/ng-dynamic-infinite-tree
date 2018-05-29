@@ -1,7 +1,8 @@
 # ng-dynamic-infinite-tree : nth level nested tree with dynamic variables
 
-# Installing
+#Description
 
+#Installing
 ## NPM
 
 ```bash
@@ -22,10 +23,10 @@ The first step is to install dependencies. `node` is required and must be availa
 
 The `gulp` command line utility is also required.
 
-    # If you don't already have the grunt-cli installed:
-    > npm install -g grunt-cli
+    # If you don't already have the gulp installed:
+    > npm install -g gulp
 
-With `git` and `grunt-cli` installed you simply run the following commands to install all dependencies. 
+With `npm` and `gulp` installed you simply run the following commands to install all dependencies. 
 
     > npm install
     > gulp build
