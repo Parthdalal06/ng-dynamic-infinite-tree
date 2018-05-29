@@ -24,13 +24,6 @@
     "type": "git",
     "url": "git+https://github.com/Parthdalal06/ng-dynamic-infinite-tree.git"
   },
-  "keywords": [
-    "angularjs",
-    "nested",
-    "tree",
-    "infinite",
-    "tree"
-  ],
   "author": "Parth Dalal",
   "license": "MIT",
   "bugs": {
