@@ -1,25 +1,38 @@
 {
   "name": "ng-dynamic-infinite-tree",
   "version": "1.0.0",
-  "description": "Angularjs directive library for nth level infinite tree with dynamic variables in the json structure ",
-  "main": "index.js",
-  "dependencies": {
-     "bootstrap": "~3.3.5"
+  "description": "angularjs directive for infinite level tree view with dynamic variables",
+  "main": "src/scripts/ng-dynamic-infinite-tree.js",
+  "directories": {
+    "example": "example"
   },
-  "devDependencies": {
-    "gulp": "^3.8.7",
-    "gulp-concat": "^2.3.4",
-    "gulp-jshint": "^1.8.4",
-    "gulp-plumber": "^0.6.6",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^0.3.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Parthdalal06/ng-dynamic-infinite-tree.git"
   },
-  "author": "Parth Dalal",
+  "keywords": [
+    "angularjs",
+    "tree",
+    "nested",
+    "infinite",
+    "dynamic"
+  ],
+  "author": "Parth Dalal <Parthdalal06@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {
+   "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-jshint": "^1.8.4",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1"
+  },
   "bugs": {
     "url": "https://github.com/Parthdalal06/ng-dynamic-infinite-tree/issues"
   },
