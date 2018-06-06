@@ -12,7 +12,7 @@
 6. leafname="leafname"
  
  
-##JSON tree structure example:
+## JSON tree structure example:
 
 ```json
 $scope.treedata =[{
