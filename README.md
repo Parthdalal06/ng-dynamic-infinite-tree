@@ -1,6 +1,11 @@
 # ng-dynamic-infinite-tree : nth level nested tree with dynamic variables
 
 # Description
+## Basic modules required :
+1. Bootstrap
+2. Jquery
+3. AngularJs
+
 ## Basic tag to be used
 ```html
     <sptreeview treedata="treedata" parent="parent" children="children" subchild="subchild" childname="childname" leafname="leafname"></sptreeview>
