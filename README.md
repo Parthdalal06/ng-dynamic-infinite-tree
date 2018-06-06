@@ -4,15 +4,17 @@
     <sptreeview treedata="treedata" parent="parent" children="children" subchild="subchild" childname="childname" leafname="leafname"></sptreeview>
 ```
 ## mandatory values to be passed(for dynamic variables in the tree structure):
- treedata="treedata" (data obtained)
- parent="parent" 
- children="children" 
- subchild="subchild" 
- childname="childname" 
- leafname="leafname"
+1. treedata="treedata" (data obtained)
+2. parent="parent" 
+3. children="children" 
+4. subchild="subchild"
+5. childname="childname"
+6. leafname="leafname"
  
  
 ##JSON tree structure example:
+
+```json
 $scope.treedata =[{
 		"parent": "dataparent",
 		"subchild": [{
@@ -50,6 +52,8 @@ $scope.treedata =[{
 			}]
 		}]
 	}];
+```
+
     
 # Description
 
