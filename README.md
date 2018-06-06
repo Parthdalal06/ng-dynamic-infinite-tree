@@ -1,5 +1,56 @@
 # ng-dynamic-infinite-tree : nth level nested tree with dynamic variables
-
+## Basic tag to be used
+```html
+    <sptreeview treedata="treedata" parent="parent" children="children" subchild="subchild" childname="childname" leafname="leafname"></sptreeview>
+```
+## mandatory values to be passed(for dynamic variables in the tree structure):
+ treedata="treedata" (data obtained)
+ parent="parent" 
+ children="children" 
+ subchild="subchild" 
+ childname="childname" 
+ leafname="leafname"
+ 
+ 
+##JSON tree structure example:
+$scope.treedata =[{
+		"parent": "dataparent",
+		"subchild": [{
+			"leafname": "dataparent-subchild"
+		}],
+		"children": [{
+			"childname": "children1",
+			"subchild": [{
+				"leafname": "children1-subchild"
+			}, {
+				"leafname": "children1-subchild2"
+			}, {
+				"leafname": "children1-subchild3"
+			}],
+			"children": [{
+				"childname": "children1-subchildren",
+				"subchild": [{
+					"leafname": "children1-subchildrens-subchild"
+				}]
+			}]
+		},{
+			"childname": "children2",
+			"subchild": [{
+				"leafname": "children2-subchildren1"
+			}, {
+				"leafname": "children2-subchildren2"
+			}, {
+				"leafname": "children2-subchildren3"
+			}],
+			"children": [{
+				"childname": "children2-subchildren",
+				"subchild": [{
+					"leafname": "children2-subchildrens-subchildren"
+				}]
+			}]
+		}]
+	}];
+    
 # Description
 
 # Installing
