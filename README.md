@@ -1,5 +1,5 @@
 # ng-dynamic-infinite-tree : nth level nested tree with dynamic variables
-![ScreenShot](screenshot.jpg)
+![ScreenShot](screenshot.PNG)
 # Description
 ## Basic modules required :
 1. Bootstrap
