@@ -1,4 +1,6 @@
 # ng-dynamic-infinite-tree : nth level nested tree with dynamic variables
+
+# Description
 ## Basic tag to be used
 ```html
     <sptreeview treedata="treedata" parent="parent" children="children" subchild="subchild" childname="childname" leafname="leafname"></sptreeview>
@@ -53,9 +55,6 @@ $scope.treedata =[{
 		}]
 	}];
 ```
-
-    
-# Description
 
 # Installing
 ## NPM
